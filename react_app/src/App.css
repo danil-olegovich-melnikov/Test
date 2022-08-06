@@ -1,0 +1,54 @@
+header {
+    background: #97f1a1;
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.row {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.col1 {
+    width: 650px;
+}
+
+.total {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.total-h3 {
+    margin: 0;
+    padding: 5px;
+    font-size: 28px;
+    background: black;
+    color: white;
+}
+
+.total-p {
+    font-size: 48px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.table td, .table th {
+    border: 1px solid black;
+}
+
+.table th {
+    color: white;
+    background-color: black;;
+}
